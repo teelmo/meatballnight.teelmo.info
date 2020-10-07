@@ -1,12 +1,12 @@
 {
-  "name": "taconight.teelmo.info",
+  "name": "meatballnight.teelmo.info",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
-    "sync-prod": "ssh teelmo@teelmo.info git -C /var/www/taconight.teelmo.info pull"
+    "sync-prod": "ssh teelmo@teelmo.info git -C /var/www/meatballnight.teelmo.info pull"
   },
   "keywords": [],
   "author": "",

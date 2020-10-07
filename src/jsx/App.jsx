@@ -27,13 +27,15 @@ class App extends Component {
   render() {
     return (
       <div className={style.app}>
-        <div className={style.image_container}><img src="img/mexican.gif" /></div>
-        <h3>HOMBRES AND AMIGO&shy;RETTES!</h3>
-        <h1>FISH TACO NIGHT</h1>
-        <div className={style.image_container}><img src="img/taco1.gif" /></div>
-        <h3>VIVA This Friday!</h3>
-        <h1>Vamos 19:30!</h1>
-        <div className={style.image_container}><img src="img/taco2.gif" /></div>
+        <h3>The taco night was a huge success!!!</h3>
+        <div className={style.image_container}><img src="img/nachos.gif" /></div>
+        <h3>The highly anticipated sequel is now here!!!</h3>
+        <h1>Helena & Teemo present: Meatball night, vol. 1</h1>
+        <div className={style.image_container}><img src="img/meatball2.gif" /></div>
+        <h3>When: Friday 19:30</h3>
+        <h3>What: Meatballs</h3>
+        <h3>Who: You</h3>
+        <div className={style.image_container}><img src="img/meatball1.gif" /></div>
       </div>
     );
   }
