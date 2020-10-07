@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import style from './../styles/styles.less';
 
-import Typist from 'react-typist';
+import Confetti from 'react-confetti';
 
 class App extends Component {
   constructor(props) {
@@ -27,6 +27,7 @@ class App extends Component {
   render() {
     return (
       <div className={style.app}>
+        <Confetti width={window.innerWidth} height={window.innerHeight} recycle={true} className={style.rain} />
         <h3>The taco night was a huge success!!!</h3>
         <div className={style.image_container}><img src="img/nachos.gif" /></div>
         <h3>The highly anticipated sequel is now here!!!</h3>
