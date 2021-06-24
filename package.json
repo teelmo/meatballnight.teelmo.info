@@ -16,6 +16,7 @@
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.0.5",
+    "caniuse-lite": "^1.0.30001239",
     "copy-webpack-plugin": "^5.0.2",
     "css-loader": "^2.1.1",
     "html-loader": "^0.5.5",
